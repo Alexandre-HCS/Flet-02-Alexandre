@@ -76,6 +76,7 @@ def main(page: ft.Page):
         else:
             page.bgcolor = ft.Colors.WHITE
             toggle.icon = ft.Icons.DARK_MODE
+            titulo.color = ft.Colors.BLACK
             peso.color = ft.Colors.BLACK
             altura.color = ft.Colors.BLACK
             peso.label_style = ft.TextStyle(color=ft.Colors.BLACK)
